@@ -15,6 +15,6 @@ public class LoginService {
 
     @Autowired
     public TblUserRecord login(String username, String password){
-        tblUserRecordMapper.
+        return tblUserRecordMapper.login(username,password);
     }
 }
