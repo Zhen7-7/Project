@@ -2,6 +2,8 @@ package org.zhen77.bean;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import org.springframework.stereotype.Component;
+
 import java.time.LocalDateTime;
 import java.io.Serializable;
 
@@ -10,9 +12,10 @@ import java.io.Serializable;
  * 用户档案
  * </p>
  *
- * @author lian
+ * @author zhen77
  * @since 2021-02-26
  */
+
 public class TblUserRecord implements Serializable {
 
     private static final long serialVersionUID=1L;
@@ -148,29 +151,7 @@ public class TblUserRecord implements Serializable {
      */
     private LocalDateTime createDate;
 
-    public TblRole getTblRole() {
-        return tblRole;
-    }
 
-    public void setTblRole(TblRole tblRole) {
-        this.tblRole = tblRole;
-    }
-
-    public TblDept getTblDept() {
-        return tblDept;
-    }
-
-    public void setTblDept(TblDept tblDept) {
-        this.tblDept = tblDept;
-    }
-
-    public TblCompany getTblCompany() {
-        return tblCompany;
-    }
-
-    public void setTblCompany(TblCompany tblCompany) {
-        this.tblCompany = tblCompany;
-    }
 
     public Integer getId() {
         return id;
@@ -204,9 +185,6 @@ public class TblUserRecord implements Serializable {
         this.userType = userType;
     }
 
-
-
-
     public String getUserGender() {
         return userGender;
     }
@@ -214,10 +192,6 @@ public class TblUserRecord implements Serializable {
     public void setUserGender(String userGender) {
         this.userGender = userGender;
     }
-
-
-
-
 
     public Integer getUserJob() {
         return userJob;
@@ -331,9 +305,29 @@ public class TblUserRecord implements Serializable {
         this.remark = remark;
     }
 
+    public TblRole getTblRole() {
+        return tblRole;
+    }
 
+    public void setTblRole(TblRole tblRole) {
+        this.tblRole = tblRole;
+    }
 
+    public TblDept getTblDept() {
+        return tblDept;
+    }
 
+    public void setTblDept(TblDept tblDept) {
+        this.tblDept = tblDept;
+    }
+
+    public TblCompany getTblCompany() {
+        return tblCompany;
+    }
+
+    public void setTblCompany(TblCompany tblCompany) {
+        this.tblCompany = tblCompany;
+    }
 
     public String getIsDeptAdmin() {
         return isDeptAdmin;
@@ -367,6 +361,15 @@ public class TblUserRecord implements Serializable {
         this.createDate = createDate;
     }
 
+    private String token;
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
 
     @Override
     public String toString() {
