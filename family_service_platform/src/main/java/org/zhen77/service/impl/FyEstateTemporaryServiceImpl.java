@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.FyEstateTemporary;
 import org.zhen77.mapper.FyEstateTemporaryMapper;
-import org.zhen77.service.FyEstateTemporaryService;
+import org.zhen77.service.base.FyEstateTemporaryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

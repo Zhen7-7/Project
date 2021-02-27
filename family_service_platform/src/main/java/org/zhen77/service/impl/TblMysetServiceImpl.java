@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblMyset;
 import org.zhen77.mapper.TblMysetMapper;
-import org.zhen77.service.TblMysetService;
+import org.zhen77.service.base.TblMysetService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

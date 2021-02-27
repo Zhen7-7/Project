@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyCommitteeMembers;
 import org.zhen77.mapper.WyCommitteeMembersMapper;
-import org.zhen77.service.WyCommitteeMembersService;
+import org.zhen77.service.base.WyCommitteeMembersService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblGroupRecord;
 import org.zhen77.mapper.TblGroupRecordMapper;
-import org.zhen77.service.TblGroupRecordService;
+import org.zhen77.service.base.TblGroupRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.ZhRentShare;
 import org.zhen77.mapper.ZhRentShareMapper;
-import org.zhen77.service.ZhRentShareService;
+import org.zhen77.service.base.ZhRentShareService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

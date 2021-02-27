@@ -1,5 +1,6 @@
 package org.zhen77.mapper;
 
+import org.apache.ibatis.annotations.Param;
 import org.zhen77.bean.TblUserRecord;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
@@ -12,5 +13,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @since 2021-02-26
  */
 public interface TblUserRecordMapper extends BaseMapper<TblUserRecord> {
-
+    public TblUserRecord login(@Param("username") String username, @Param("password") String password);
 }

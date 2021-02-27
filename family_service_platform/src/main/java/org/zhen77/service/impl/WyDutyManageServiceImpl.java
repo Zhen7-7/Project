@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyDutyManage;
 import org.zhen77.mapper.WyDutyManageMapper;
-import org.zhen77.service.WyDutyManageService;
+import org.zhen77.service.base.WyDutyManageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

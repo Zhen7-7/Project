@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.FcBuilding;
 import org.zhen77.mapper.FcBuildingMapper;
-import org.zhen77.service.FcBuildingService;
+import org.zhen77.service.base.FcBuildingService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

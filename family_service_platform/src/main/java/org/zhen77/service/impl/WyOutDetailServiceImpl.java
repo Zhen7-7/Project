@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyOutDetail;
 import org.zhen77.mapper.WyOutDetailMapper;
-import org.zhen77.service.WyOutDetailService;
+import org.zhen77.service.base.WyOutDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

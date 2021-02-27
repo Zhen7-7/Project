@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblSendLog;
 import org.zhen77.mapper.TblSendLogMapper;
-import org.zhen77.service.TblSendLogService;
+import org.zhen77.service.base.TblSendLogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -16,7 +16,7 @@ import java.util.List;
  * @Description: org.zhen77.config
  * @version: 1.0
  */
-@Configuration
+//@Configuration
 public class CorsConfig {
     private CorsConfiguration buildConfig() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();

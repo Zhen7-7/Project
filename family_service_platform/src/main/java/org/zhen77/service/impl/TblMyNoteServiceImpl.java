@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblMyNote;
 import org.zhen77.mapper.TblMyNoteMapper;
-import org.zhen77.service.TblMyNoteService;
+import org.zhen77.service.base.TblMyNoteService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.FyShareUserDetail;
 import org.zhen77.mapper.FyShareUserDetailMapper;
-import org.zhen77.service.FyShareUserDetailService;
+import org.zhen77.service.base.FyShareUserDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.FyMoneyTemporary02;
 import org.zhen77.mapper.FyMoneyTemporary02Mapper;
-import org.zhen77.service.FyMoneyTemporary02Service;
+import org.zhen77.service.base.FyMoneyTemporary02Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

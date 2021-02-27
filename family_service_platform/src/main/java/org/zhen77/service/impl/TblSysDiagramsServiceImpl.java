@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblSysDiagrams;
 import org.zhen77.mapper.TblSysDiagramsMapper;
-import org.zhen77.service.TblSysDiagramsService;
+import org.zhen77.service.base.TblSysDiagramsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

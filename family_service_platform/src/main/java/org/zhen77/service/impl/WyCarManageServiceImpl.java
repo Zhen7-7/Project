@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyCarManage;
 import org.zhen77.mapper.WyCarManageMapper;
-import org.zhen77.service.WyCarManageService;
+import org.zhen77.service.base.WyCarManageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyFireFacility;
 import org.zhen77.mapper.WyFireFacilityMapper;
-import org.zhen77.service.WyFireFacilityService;
+import org.zhen77.service.base.WyFireFacilityService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

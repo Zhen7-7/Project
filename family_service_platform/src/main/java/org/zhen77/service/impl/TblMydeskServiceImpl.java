@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblMydesk;
 import org.zhen77.mapper.TblMydeskMapper;
-import org.zhen77.service.TblMydeskService;
+import org.zhen77.service.base.TblMydeskService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

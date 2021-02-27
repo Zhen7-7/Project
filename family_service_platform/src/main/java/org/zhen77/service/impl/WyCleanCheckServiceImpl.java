@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyCleanCheck;
 import org.zhen77.mapper.WyCleanCheckMapper;
-import org.zhen77.service.WyCleanCheckService;
+import org.zhen77.service.base.WyCleanCheckService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

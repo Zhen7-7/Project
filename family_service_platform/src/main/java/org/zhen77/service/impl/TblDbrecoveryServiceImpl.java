@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblDbrecovery;
 import org.zhen77.mapper.TblDbrecoveryMapper;
-import org.zhen77.service.TblDbrecoveryService;
+import org.zhen77.service.base.TblDbrecoveryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

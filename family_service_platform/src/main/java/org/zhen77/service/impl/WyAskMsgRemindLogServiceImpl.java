@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyAskMsgRemindLog;
 import org.zhen77.mapper.WyAskMsgRemindLogMapper;
-import org.zhen77.service.WyAskMsgRemindLogService;
+import org.zhen77.service.base.WyAskMsgRemindLogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

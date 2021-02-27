@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.ZhRentInformation;
 import org.zhen77.mapper.ZhRentInformationMapper;
-import org.zhen77.service.ZhRentInformationService;
+import org.zhen77.service.base.ZhRentInformationService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

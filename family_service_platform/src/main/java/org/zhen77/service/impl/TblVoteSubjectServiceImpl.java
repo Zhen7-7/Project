@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblVoteSubject;
 import org.zhen77.mapper.TblVoteSubjectMapper;
-import org.zhen77.service.TblVoteSubjectService;
+import org.zhen77.service.base.TblVoteSubjectService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

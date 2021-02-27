@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.FyInvalidSub;
 import org.zhen77.mapper.FyInvalidSubMapper;
-import org.zhen77.service.FyInvalidSubService;
+import org.zhen77.service.base.FyInvalidSubService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblEmailSend;
 import org.zhen77.mapper.TblEmailSendMapper;
-import org.zhen77.service.TblEmailSendService;
+import org.zhen77.service.base.TblEmailSendService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyGreenSetting;
 import org.zhen77.mapper.WyGreenSettingMapper;
-import org.zhen77.service.WyGreenSettingService;
+import org.zhen77.service.base.WyGreenSettingService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyNoteManage;
 import org.zhen77.mapper.WyNoteManageMapper;
-import org.zhen77.service.WyNoteManageService;
+import org.zhen77.service.base.WyNoteManageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

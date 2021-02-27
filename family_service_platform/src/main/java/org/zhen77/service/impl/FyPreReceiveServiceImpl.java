@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.FyPreReceive;
 import org.zhen77.mapper.FyPreReceiveMapper;
-import org.zhen77.service.FyPreReceiveService;
+import org.zhen77.service.base.FyPreReceiveService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

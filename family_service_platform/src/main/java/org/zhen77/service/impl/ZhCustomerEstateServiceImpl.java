@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.ZhCustomerEstate;
 import org.zhen77.mapper.ZhCustomerEstateMapper;
-import org.zhen77.service.ZhCustomerEstateService;
+import org.zhen77.service.base.ZhCustomerEstateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

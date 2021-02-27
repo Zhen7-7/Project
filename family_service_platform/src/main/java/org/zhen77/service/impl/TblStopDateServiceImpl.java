@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblStopDate;
 import org.zhen77.mapper.TblStopDateMapper;
-import org.zhen77.service.TblStopDateService;
+import org.zhen77.service.base.TblStopDateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

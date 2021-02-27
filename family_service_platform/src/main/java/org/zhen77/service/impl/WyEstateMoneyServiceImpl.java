@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyEstateMoney;
 import org.zhen77.mapper.WyEstateMoneyMapper;
-import org.zhen77.service.WyEstateMoneyService;
+import org.zhen77.service.base.WyEstateMoneyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

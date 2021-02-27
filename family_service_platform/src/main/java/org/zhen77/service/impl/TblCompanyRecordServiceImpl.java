@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblCompanyRecord;
 import org.zhen77.mapper.TblCompanyRecordMapper;
-import org.zhen77.service.TblCompanyRecordService;
+import org.zhen77.service.base.TblCompanyRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

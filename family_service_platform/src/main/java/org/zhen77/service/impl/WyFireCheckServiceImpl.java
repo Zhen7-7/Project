@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyFireCheck;
 import org.zhen77.mapper.WyFireCheckMapper;
-import org.zhen77.service.WyFireCheckService;
+import org.zhen77.service.base.WyFireCheckService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

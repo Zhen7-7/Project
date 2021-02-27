@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblComparyNotice;
 import org.zhen77.mapper.TblComparyNoticeMapper;
-import org.zhen77.service.TblComparyNoticeService;
+import org.zhen77.service.base.TblComparyNoticeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

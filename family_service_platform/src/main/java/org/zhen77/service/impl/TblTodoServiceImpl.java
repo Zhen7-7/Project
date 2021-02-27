@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblTodo;
 import org.zhen77.mapper.TblTodoMapper;
-import org.zhen77.service.TblTodoService;
+import org.zhen77.service.base.TblTodoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.FyShareStandingBookDetail;
 import org.zhen77.mapper.FyShareStandingBookDetailMapper;
-import org.zhen77.service.FyShareStandingBookDetailService;
+import org.zhen77.service.base.FyShareStandingBookDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -37,4 +37,10 @@
         id, user_name, user_password, user_type, user_role, user_gender, user_dept, user_job, user_status, office_phone, inner_phone, move_phone, email, is_send_msg, start_date, stop_date, birthday, ip_rule, user_hiredate, is_send_wchat, remark, company, is_dept_admin, last_login_date, create_person, create_date
     </sql>
 
+    <resultMap id="loginResult" type="org.zhen77.bean.TblUserRecord">
+
+    </resultMap>
+
+    <select id="login" resultMap=""
+
 </mapper>

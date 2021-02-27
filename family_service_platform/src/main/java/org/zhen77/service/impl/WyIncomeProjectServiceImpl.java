@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyIncomeProject;
 import org.zhen77.mapper.WyIncomeProjectMapper;
-import org.zhen77.service.WyIncomeProjectService;
+import org.zhen77.service.base.WyIncomeProjectService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

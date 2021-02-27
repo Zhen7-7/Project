@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyVisitManage;
 import org.zhen77.mapper.WyVisitManageMapper;
-import org.zhen77.service.WyVisitManageService;
+import org.zhen77.service.base.WyVisitManageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.FySaleContract;
 import org.zhen77.mapper.FySaleContractMapper;
-import org.zhen77.service.FySaleContractService;
+import org.zhen77.service.base.FySaleContractService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

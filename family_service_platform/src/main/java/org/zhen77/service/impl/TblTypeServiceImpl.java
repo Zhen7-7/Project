@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblType;
 import org.zhen77.mapper.TblTypeMapper;
-import org.zhen77.service.TblTypeService;
+import org.zhen77.service.base.TblTypeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

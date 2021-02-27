@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblPositionRecord;
 import org.zhen77.mapper.TblPositionRecordMapper;
-import org.zhen77.service.TblPositionRecordService;
+import org.zhen77.service.base.TblPositionRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

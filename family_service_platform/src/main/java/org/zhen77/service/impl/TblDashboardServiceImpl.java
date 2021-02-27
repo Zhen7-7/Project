@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblDashboard;
 import org.zhen77.mapper.TblDashboardMapper;
-import org.zhen77.service.TblDashboardService;
+import org.zhen77.service.base.TblDashboardService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

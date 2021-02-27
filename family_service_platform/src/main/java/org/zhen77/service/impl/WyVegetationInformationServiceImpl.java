@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyVegetationInformation;
 import org.zhen77.mapper.WyVegetationInformationMapper;
-import org.zhen77.service.WyVegetationInformationService;
+import org.zhen77.service.base.WyVegetationInformationService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

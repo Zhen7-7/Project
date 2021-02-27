@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyServiceCashierGroup;
 import org.zhen77.mapper.WyServiceCashierGroupMapper;
-import org.zhen77.service.WyServiceCashierGroupService;
+import org.zhen77.service.base.WyServiceCashierGroupService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblMainMenu;
 import org.zhen77.mapper.TblMainMenuMapper;
-import org.zhen77.service.TblMainMenuService;
+import org.zhen77.service.base.TblMainMenuService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

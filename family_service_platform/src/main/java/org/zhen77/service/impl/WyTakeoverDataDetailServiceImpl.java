@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyTakeoverDataDetail;
 import org.zhen77.mapper.WyTakeoverDataDetailMapper;
-import org.zhen77.service.WyTakeoverDataDetailService;
+import org.zhen77.service.base.WyTakeoverDataDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

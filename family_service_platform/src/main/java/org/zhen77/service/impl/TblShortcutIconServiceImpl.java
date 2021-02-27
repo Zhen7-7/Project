@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblShortcutIcon;
 import org.zhen77.mapper.TblShortcutIconMapper;
-import org.zhen77.service.TblShortcutIconService;
+import org.zhen77.service.base.TblShortcutIconService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.ZhRentContractReturn;
 import org.zhen77.mapper.ZhRentContractReturnMapper;
-import org.zhen77.service.ZhRentContractReturnService;
+import org.zhen77.service.base.ZhRentContractReturnService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblDate;
 import org.zhen77.mapper.TblDateMapper;
-import org.zhen77.service.TblDateService;
+import org.zhen77.service.base.TblDateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

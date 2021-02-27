@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblPrintParam;
 import org.zhen77.mapper.TblPrintParamMapper;
-import org.zhen77.service.TblPrintParamService;
+import org.zhen77.service.base.TblPrintParamService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

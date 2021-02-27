@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblAttupload;
 import org.zhen77.mapper.TblAttuploadMapper;
-import org.zhen77.service.TblAttuploadService;
+import org.zhen77.service.base.TblAttuploadService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

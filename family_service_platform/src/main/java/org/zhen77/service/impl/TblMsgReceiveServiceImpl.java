@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblMsgReceive;
 import org.zhen77.mapper.TblMsgReceiveMapper;
-import org.zhen77.service.TblMsgReceiveService;
+import org.zhen77.service.base.TblMsgReceiveService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

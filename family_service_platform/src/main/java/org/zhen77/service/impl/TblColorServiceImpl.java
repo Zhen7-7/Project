@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblColor;
 import org.zhen77.mapper.TblColorMapper;
-import org.zhen77.service.TblColorService;
+import org.zhen77.service.base.TblColorService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

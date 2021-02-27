@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.FyReceiptMain;
 import org.zhen77.mapper.FyReceiptMainMapper;
-import org.zhen77.service.FyReceiptMainService;
+import org.zhen77.service.base.FyReceiptMainService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

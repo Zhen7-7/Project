@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WySecurityArrange;
 import org.zhen77.mapper.WySecurityArrangeMapper;
-import org.zhen77.service.WySecurityArrangeService;
+import org.zhen77.service.base.WySecurityArrangeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

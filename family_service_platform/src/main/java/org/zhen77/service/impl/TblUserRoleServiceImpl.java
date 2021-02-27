@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblUserRole;
 import org.zhen77.mapper.TblUserRoleMapper;
-import org.zhen77.service.TblUserRoleService;
+import org.zhen77.service.base.TblUserRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

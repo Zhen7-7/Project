@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblEnvirSetting;
 import org.zhen77.mapper.TblEnvirSettingMapper;
-import org.zhen77.service.TblEnvirSettingService;
+import org.zhen77.service.base.TblEnvirSettingService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

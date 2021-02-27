@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblQuick;
 import org.zhen77.mapper.TblQuickMapper;
-import org.zhen77.service.TblQuickService;
+import org.zhen77.service.base.TblQuickService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

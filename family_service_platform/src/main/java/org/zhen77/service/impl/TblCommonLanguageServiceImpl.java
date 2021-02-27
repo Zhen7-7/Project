@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblCommonLanguage;
 import org.zhen77.mapper.TblCommonLanguageMapper;
-import org.zhen77.service.TblCommonLanguageService;
+import org.zhen77.service.base.TblCommonLanguageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

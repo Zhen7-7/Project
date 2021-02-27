@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.FyPropertyMoneyDist;
 import org.zhen77.mapper.FyPropertyMoneyDistMapper;
-import org.zhen77.service.FyPropertyMoneyDistService;
+import org.zhen77.service.base.FyPropertyMoneyDistService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

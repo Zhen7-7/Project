@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyCleanPlan;
 import org.zhen77.mapper.WyCleanPlanMapper;
-import org.zhen77.service.WyCleanPlanService;
+import org.zhen77.service.base.WyCleanPlanService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

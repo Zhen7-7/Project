@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.TblCommonMessage;
 import org.zhen77.mapper.TblCommonMessageMapper;
-import org.zhen77.service.TblCommonMessageService;
+import org.zhen77.service.base.TblCommonMessageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyCleanRecord;
 import org.zhen77.mapper.WyCleanRecordMapper;
-import org.zhen77.service.WyCleanRecordService;
+import org.zhen77.service.base.WyCleanRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

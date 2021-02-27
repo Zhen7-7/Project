@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.FcCellAddbuild;
 import org.zhen77.mapper.FcCellAddbuildMapper;
-import org.zhen77.service.FcCellAddbuildService;
+import org.zhen77.service.base.FcCellAddbuildService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package org.zhen77.service.impl;
 
 import org.zhen77.bean.WyGreenCheck;
 import org.zhen77.mapper.WyGreenCheckMapper;
-import org.zhen77.service.WyGreenCheckService;
+import org.zhen77.service.base.WyGreenCheckService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
