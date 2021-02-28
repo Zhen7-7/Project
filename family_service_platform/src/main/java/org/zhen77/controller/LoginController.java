@@ -42,7 +42,7 @@ public class LoginController {
         tblUserRecord.setToken(tblUserRecord.getUserName());//可以用AOP,而且更高效
         //将用户数据写入到session中
         session.setAttribute("userRecord",tblUserRecord);
-        ReturnObject returnObject = new ReturnObject(tblUserRecord);
+        ReturnObject returnObject = new ReturnObject(tblUserRecord);//设计模式
         return JSONObject.toJSONString(returnObject);
     }
     @RequestMapping("/user/info")
@@ -62,5 +62,12 @@ public class LoginController {
         UserInfo userInfo = new UserInfo(tblUserRecord.getUserName(), permissions);
         return JSONObject.toJSONString(new ReturnObject(userInfo));
 
+    }
+    @RequestMapping("/auth/logout")
+    public String logOut(HttpSession session){
+        System.out.println("退出登录");
+        session.invalidate();//使session无效
+//        return JSONObject.toJSONString(new ReturnObject(null));
+        return "";
     }
 }
